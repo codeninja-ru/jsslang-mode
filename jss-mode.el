@@ -63,6 +63,9 @@ Special commands:
   ;(add-to-list 'compilation-error-regexp-alist jss-compile-error-regex)
   ;(add-hook 'after-save-hook 'jss-compile-maybe nil t)
 
+;;;###autoload
+(add-to-list 'auto-mode-alist '("\\.jss\\'" . jss-mode))
+
 
 (provide 'jss-mode)
 ;;; jss-mode.el ends here
