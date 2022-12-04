@@ -26,7 +26,7 @@
   ;; Variables
   '(("$\{[a-z_-][a-z-_0-9]*\}" . font-lock-constant-face)))
 
-
+;;;###autoload
 (define-derived-mode jss-mode js2-mode "jsslang"
   "Major mode for editing jsslang files
 Special commands:
